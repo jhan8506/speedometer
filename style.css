@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+
+body {
+  height: 280px;
+  width: 200px;
+  text-align: center;
+  background-color: #f9f9fb;
+  color: black;
+  word-wrap: break-word;
+}
+
+#websiteTestedHead {
+  color: blue;
+  font-weight: bold;
+}
+
+#speedHead {
+  color: blue;
+  font-weight: bold;
+}
+
+#scoreHead {
+  color: blue;
+  font-weight: bold;
+}
+
+#domSizeHead {
+  color: blue;
+  font-weight: bold;
+}
+
+#bootupTimeHead {
+  color: blue;
+  font-weight: bold;
+}
+
+h1 {
+  color: #333333;
+  text-align: center;
+  border-bottom: 1px solid #e8e8ed;
+  padding-bottom: 20px;
+  font-family: "Staatliches", cursive;
+}
+
+#checkPage {
+  background-color: #44c767;
+  border-radius: 28px;
+  border: 1px solid #18ab29;
+  color: #ffffff;
+  padding: 16px 31px;
+  text-decoration: none;
+  line-height: normal;
+  white-space: nowrap;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+  -webkit-user-drag: none;
+  user-select: none;
+  box-sizing: border-box;
+  letter-spacing: 0.01em;
+  -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  word-spacing: normal;
+  text-indent: 0px;
+  font: 400 13.3333px Arial;
+  position: relative;
+  left: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+#checkPage,
+select {
+  text-transform: none;
+}
+#checkPage,
+input {
+  overflow: visible;
+}
+
+#checkPage:hover {
+  background-color: #5cbf2a;
+}

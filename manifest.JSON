@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "Speed o Meter",
+  "description": "This extension will analyze the speed of your website",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "speed.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab", "tabs"]
+}
